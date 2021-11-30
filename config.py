@@ -27,7 +27,7 @@ class Config:
     SESSION = os.environ.get("SESSION_STRING", "")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
+    CHAT = int(os.environ.get("CHAT", "-1001404917238"))
     LOG_GROUP=os.environ.get("LOG_GROUP", "")
 
     #Stream 
