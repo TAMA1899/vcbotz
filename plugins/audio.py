@@ -41,6 +41,7 @@ async def play(client, m: Message):
                 return await msg.edit(f"❌ **YouTube Download Error !** \n\n`{e}`")
                 print(e)
 
+                
         else:
             await msg.edit("🔄 `Starting Live Audio Stream ...`")
             link = query
