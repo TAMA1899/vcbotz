@@ -9,7 +9,7 @@ import pytz
 from config import Config
 from PTN import parse
 from youtube_search import YoutubeSearch
-from yt_dlp import YoutubeDL
+from yt_dlp.yt_dlp import YoutubeDL
 
 from pyrogram import(
     Client, 
