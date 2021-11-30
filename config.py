@@ -14,7 +14,6 @@ except ModuleNotFoundError:
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', file, '--upgrade'])
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-
 class Config:
     #Telegram API Stuffs
     load_dotenv()  # load enviroment variables from .env file
